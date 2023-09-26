@@ -12,7 +12,7 @@ const LeftNav = () => {
     },[])
     return (
         <div>
-            <h4>All Category</h4>
+            <h4 className="mt-4">All Category</h4>
           <div className="ps-4">
           {
                 categories.map(category => <p
